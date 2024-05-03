@@ -1,0 +1,117 @@
+/* Importe do Reset css */
+@import url(../../assets/Reset/reset.min.css);
+/* Importe das classes auxiliares css */
+@import url(../../assets/Classes-Auxiliares/auxiliares.min.css);
+/* Importe dos componentes css */
+@import url(../../assets/Componentes/Componentes.min.css);
+/* Importe das fonts */
+@import url(../../assets/Fonts/Font-Projeto.min.css);
+/* Importe breakpoints css */
+@import url(../../assets/Breakpoints/Breakpoints.min.css);
+
+/* Style da Página */
+body {
+  background-color: var(--Preto);
+}
+/* Header */
+header {
+  background-image: url(../../assets/imagens/bg-header.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  position: relative;
+}
+header .social {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 40px;
+  gap: 25px;
+  align-items: center;
+}
+header .social a {
+  color: #fff;
+  font-size: 25px;
+}
+header .header_chamada {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+header .header_chamada h1 {
+  font-size: 34px;
+  color: var(--texto-branco);
+}
+.header_chamada h1 > span {
+  color: var(--Laranja);
+  font-family: "Miltonian", serif;
+}
+header .header_chamada p {
+  font-size: 16px;
+  padding-top: 30px;
+  color: var(--texto-branco);
+  max-width: 370px;
+  font-weight: lighter;
+  line-height: 20px;
+}
+header .btn_chamada {
+  font-size: 16px;
+  background-color: var(--Laranja);
+  padding: 8px 20px;
+  color: var(--texto-branco);
+  margin-top: 30px;
+  display: inline-block;
+  cursor: pointer;
+}
+/* Sobre */
+.sobre {
+  background-color: var(--Preto-claro);
+}
+.sobre > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 77px 15px;
+}
+.sobre .sobre_img {
+  background-image: url(../../assets/imagens/perfil-sobre.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 370px;
+  height: 345px;
+  border-radius: 0 20px 20px 60px;
+}
+.sobre .sobre_texto p {
+  color: var(--texto-branco);
+  max-width: 370px;
+  font-size: 16px;
+  padding-top: 30px;
+}
+.sobre .sobre_texto p > span {
+  color: var(--Laranja);
+}
+
+/* Servico */
+.servico {
+  background-color: var(--Preto-claro);
+  padding-bottom: 60px;
+}
+.servico .title {
+  text-align: center;
+  padding: 60px 15px;
+}
+.container_servico {
+  display: flex;
+  justify-content: space-between;
+}
+/* Footer copywriter */
+.footer__copywriter {
+  background-color: #000;
+  color: var(--texto-branco);
+  font-size: 13px;
+  text-align: center;
+  padding: 10px 2px;
+}
