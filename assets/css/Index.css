@@ -107,11 +107,129 @@ header .btn_chamada {
   display: flex;
   justify-content: space-between;
 }
+
+/* Projetos */
+.projetos {
+  background-color: var(--Preto);
+}
+.projeto_title h2 {
+  text-align: center;
+  padding: 60px 15px;
+}
+.projetos_flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.container_flex02 {
+  margin-top: 30px;
+  padding-bottom: 60px;
+}
+.projeto01 {
+  background-image: url(../../assets/imagens/projeto01.png);
+}
+.projeto02 {
+  background-image: url(../../assets/imagens/projeto02.png);
+}
+.projeto03 {
+  background-image: url(../../assets/imagens/projeto03.png);
+}
+
+/* Contato */
+.contato {
+  background-color: var(--Preto);
+  padding: 60px 15px;
+}
+.contato_title {
+  text-align: center;
+}
+.contato_form {
+  max-width: 768px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.form_line {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+form input {
+  width: 370px;
+  height: 40px;
+  background-color: #000;
+  border: none;
+  border-bottom: 1px solid #fff;
+  padding-left: 5px;
+  color: var(--texto-branco);
+  outline: none;
+}
+form input:focus,
+textarea:focus {
+  background-color: #000;
+}
+textarea {
+  width: 100%;
+  margin-top: 30px;
+  height: 160px;
+  background-color: #000;
+  border: none;
+  border-bottom: 1px solid #fff;
+  padding-left: 5px;
+  color: var(--texto-branco);
+  outline: none;
+}
+form button {
+  background-color: var(--Laranja);
+  width: 160px;
+  height: 30px;
+  color: var(--texto-branco);
+  margin-top: 30px;
+  cursor: pointer;
+}
+.contato_info{
+  display: flex;
+  justify-content: space-between;
+gap: 5px;
+  max-width: 768px;
+  margin: 0 auto;
+  margin-top: 60px;
+ 
+}
+/* Footer */
+footer {
+  background-color: #000;
+  padding: 60px 15px;
+}
+.footer_title {
+  text-align: center;
+}
+footer .footer_title a {
+  color: var(--texto-branco);
+  font-size: 34px;
+  text-align: center;
+}
+.footer_icons-social {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 30px 15px;
+}
+.whats {
+  background-color: #25d366;
+}
+.inst {
+  background-color: #8134af;
+}
+.link {
+  background-color: #0e76a8;
+}
+.goog {
+  background-color: #db4a39;
+}
 /* Footer copywriter */
 .footer__copywriter {
   background-color: #000;
   color: var(--texto-branco);
-  font-size: 13px;
+  font-size: 16px;
   text-align: center;
-  padding: 10px 2px;
 }
