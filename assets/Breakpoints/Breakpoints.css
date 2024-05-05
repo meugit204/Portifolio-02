@@ -18,9 +18,10 @@
     max-width: 100%;
     background-size: 100% 100%;
   }
-  .sobre .sobre_texto {
+  .sobre .container > .sobre_texto {
     width: 100%;
     margin-top: 30px;
+    text-align: center;
   }
 
   /* servico */

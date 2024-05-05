@@ -19,6 +19,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
   height: 700px;
   position: relative;
 }
@@ -38,6 +39,7 @@ header .header_chamada {
   position: absolute;
   top: 50%;
   transform: translate(0, -50%);
+  padding-right: 5px;
 }
 header .header_chamada h1 {
   font-size: 34px;
@@ -48,12 +50,13 @@ header .header_chamada h1 {
   font-family: "Miltonian", serif;
 }
 header .header_chamada p {
-  font-size: 16px;
+  font-size: 14px;
   padding-top: 30px;
   color: var(--texto-branco);
-  max-width: 370px;
+  max-width: 570px;
   font-weight: lighter;
   line-height: 20px;
+  text-shadow: 5px 2px 5px rgba(0, 0, 0, 0.747);
 }
 header .btn_chamada {
   font-size: 16px;
@@ -84,11 +87,15 @@ header .btn_chamada {
   height: 345px;
   border-radius: 0 20px 20px 60px;
 }
+.sobre .sobre_texto {
+  width: 50%;
+}
 .sobre .sobre_texto p {
   color: var(--texto-branco);
-  max-width: 370px;
-  font-size: 16px;
+  max-width: 100%;
+  font-size: 14px;
   padding-top: 30px;
+  line-height: 20px;
 }
 .sobre .sobre_texto p > span {
   color: var(--Laranja);
@@ -106,6 +113,7 @@ header .btn_chamada {
 .container_servico {
   display: flex;
   justify-content: space-between;
+  gap: 15px;
 }
 
 /* Projetos */
@@ -177,6 +185,7 @@ textarea {
   padding-left: 5px;
   color: var(--texto-branco);
   outline: none;
+  resize: vertical;
 }
 form button {
   background-color: var(--Laranja);
@@ -186,14 +195,13 @@ form button {
   margin-top: 30px;
   cursor: pointer;
 }
-.contato_info{
+.contato_info {
   display: flex;
   justify-content: space-between;
-gap: 5px;
+  gap: 5px;
   max-width: 768px;
   margin: 0 auto;
   margin-top: 60px;
- 
 }
 /* Footer */
 footer {
