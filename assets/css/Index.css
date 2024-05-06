@@ -35,6 +35,10 @@ header .social a {
   color: #fff;
   font-size: 25px;
 }
+header .social a:hover {
+  color: var(--Laranja);
+  transition: all 1s;
+}
 header .header_chamada {
   position: absolute;
   top: 50%;
@@ -58,7 +62,7 @@ header .header_chamada p {
   line-height: 20px;
   text-shadow: 5px 2px 5px rgba(0, 0, 0, 0.747);
 }
-header .btn_chamada {
+.contact-link {
   font-size: 16px;
   background-color: var(--Laranja);
   padding: 10px 20px;
@@ -66,6 +70,12 @@ header .btn_chamada {
   margin-top: 30px;
   display: inline-block;
   cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+.contact-link:hover {
+  background-color: #00000086;
+  border: 1px solid var(--Laranja);
+  transition: all 1s;
 }
 /* Sobre */
 .sobre {
@@ -79,7 +89,7 @@ header .btn_chamada {
   padding: 77px 15px;
 }
 .sobre .sobre_img {
-  background-image: url(../../assets/imagens/04.png);
+  background-image: url(../../assets/imagens/03.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -166,9 +176,11 @@ header .btn_chamada {
 }
 .container-form {
   position: relative;
+
+  width: 50%;
 }
 form input {
-  width: 370px;
+  width: 100%;
   height: 40px;
   background-color: #000;
   border: none;
@@ -196,7 +208,7 @@ textarea {
 form button {
   background-color: var(--Laranja);
   width: 160px;
-  height: 30px;
+  height: 35px;
   color: var(--texto-branco);
   margin-top: 30px;
   cursor: pointer;
