@@ -79,7 +79,7 @@ header .btn_chamada {
   padding: 77px 15px;
 }
 .sobre .sobre_img {
-  background-image: url(../../assets/imagens/03.png);
+  background-image: url(../../assets/imagens/04.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -149,7 +149,7 @@ header .btn_chamada {
 /* Contato */
 .contato {
   background-color: var(--Preto);
-  padding: 60px 15px;
+  padding: 30px 15px;
 }
 .contato_title {
   text-align: center;
@@ -163,6 +163,9 @@ header .btn_chamada {
   display: flex;
   justify-content: space-between;
   gap: 20px;
+}
+.container-form {
+  position: relative;
 }
 form input {
   width: 370px;
@@ -197,6 +200,14 @@ form button {
   color: var(--texto-branco);
   margin-top: 30px;
   cursor: pointer;
+}
+.span-required {
+  color: #e63636;
+  font-size: 14px;
+  display: none;
+  font-weight: normal;
+  position: absolute;
+  top: 43px;
 }
 .contato_info {
   display: flex;

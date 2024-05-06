@@ -333,20 +333,30 @@
               method="POST"
             >
               <div class="form_line">
-                <input
-                  type="text"
-                  name="name"
-                  id="name"
-                  required
-                  placeholder="Seu Nome"
-                />
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  required
-                  placeholder="Seu Email"
-                />
+                <div class="container-form">
+                  <input
+                    class="required"
+                    type="text"
+                    name="name"
+                    id="name"
+                    required
+                    placeholder="Seu Nome"
+                  />
+                  <span class="span-required"
+                    >Nome deve ter no minimo 3 caracteres</span
+                  >
+                </div>
+                <div class="container-form">
+                  <input
+                    class="required"
+                    type="email"
+                    name="email"
+                    id="email"
+                    required
+                    placeholder="Seu Email"
+                  />
+                  <span class="span-required">Digite um email válido</span>
+                </div>
               </div>
               <!--form_line-->
               <textarea
@@ -450,5 +460,6 @@
       <!--container-->
     </footer>
     <!--Fim do Footer-->
+    <script src="js/valida-form.js"></script>
   </body>
 </html>

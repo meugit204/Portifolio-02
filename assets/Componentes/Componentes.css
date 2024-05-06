@@ -75,12 +75,13 @@ html {
 .card_img {
   width: 100%;
   height: 160px;
-  position: relative;
   cursor: pointer;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  object-fit: cover;
 }
+
 .card_img:hover .fundo {
   opacity: 100%;
 }
@@ -128,6 +129,7 @@ html {
   text-align: center;
   max-width: 250px;
   line-height: 20px;
+  margin: 0 auto;
 }
 /* Informaçoes de contato */
 .info_card {
