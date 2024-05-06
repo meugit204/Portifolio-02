@@ -155,6 +155,15 @@ header .header_chamada p {
 .projeto03 {
   background-image: url(../../assets/imagens/projeto03.png);
 }
+.projeto04 {
+  background-image: url(../../assets/imagens/projeto04.png);
+}
+.projeto05 {
+  background-image: url(../../assets/imagens/projeto05.png);
+}
+.projeto06 {
+  background-image: url(../../assets/imagens/projeto06.png);
+}
 
 /* Contato */
 .contato {
