@@ -46,12 +46,12 @@ header .header_chamada {
   padding-right: 5px;
 }
 header .header_chamada h1 {
-  font-size: 34px;
+  font-size: 44px;
   color: var(--texto-branco);
 }
-.header_chamada h1 > span {
+div.header_chamada h1 > span {
   color: var(--Laranja);
-  font-family: "Miltonian", serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header .header_chamada p {
   font-size: 14px;
@@ -131,7 +131,7 @@ header .header_chamada p {
 
 /* Projetos */
 .projetos {
-  background-color: var(--Preto);
+  background-color: var(--Preto-claro);
 }
 .projeto_title h2 {
   text-align: center;
@@ -201,6 +201,7 @@ form input {
 form input:focus,
 textarea:focus {
   background-color: #000;
+  border: 1px solid rgb(255, 255, 255);
 }
 textarea {
   width: 100%;
@@ -209,7 +210,7 @@ textarea {
   background-color: #000;
   border: none;
   border-bottom: 1px solid #fff;
-  padding-left: 5px;
+  padding: 10px 0 0 5px;
   color: var(--texto-branco);
   outline: none;
   resize: vertical;
